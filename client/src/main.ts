@@ -1,5 +1,7 @@
 import './styles/jass.css';
 
+const port = process.env.PORT || 3001
+
 
 const apiBaseURL = process.env.NODE_ENV === 'development' ? 'http://localhost:3001' : ''
 
