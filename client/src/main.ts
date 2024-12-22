@@ -88,16 +88,13 @@ Render Functions
 */
 
 const renderCurrentWeather = (currentWeather: any): void => {
-  // const { city, date, icon, iconDescription, tempF, windSpeed, humidity } =
-  //   currentWeather;
-
-    const today = new Date()
+      const today = new Date()
 
     const formattedToday = `${today.getMonth()+1}/${today.getDate()}/${today.getFullYear()}`
 
     
 
-  // convert the following to typescript
+  
   heading.textContent = `${currentWeather.name} (${formattedToday})`;
   weatherIcon.setAttribute(
     'src',
@@ -179,7 +176,7 @@ const renderForecastCard = (forecast: any) => {
 };
 
 const renderSearchHistory = async (searchHistory: any) => {
-  // const historyList = await searchHistory.json();
+  
 
   if (searchHistoryContainer) {
     searchHistoryContainer.innerHTML = '';
