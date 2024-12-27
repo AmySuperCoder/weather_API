@@ -17,7 +17,7 @@ To use the app, type "npm i" to install all of the dependences, and then type "n
 
 This is the screen you will see open the site in the browser. To see the weather in a given city, write the city's name in the text box under "Search for a city:", and then click Search. You will see the current conditions for that city on the right with the 5 day forecast below it. 
 
-![alt text]( https://github.com/AmySuperCoder/weather_API/Images/One_city.png)
+![alt text](https://github.com/AmySuperCoder/weather_API/blob/main/Images/One_city.png)
 
 If you want to delete a previously-viewed city from your history list, click the trash can next to the city name.
 
