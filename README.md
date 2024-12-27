@@ -13,7 +13,7 @@ To install, copy the files from this GitHub repository: https://github.com/AmySu
 ## Usage
 To use the app, type "npm i" to install all of the dependences, and then type "npm start" to start the server. In a browser, go to localhost:3001.
 
-![alt text]((https://github.com/AmySuperCoder/weather_API/blob/main/Images/Opening_screen.png).
+![alt text](https://github.com/AmySuperCoder/weather_API/blob/main/Images/Opening_screen.png)
 
 This is the screen you will see open the site in the browser. To see the weather in a given city, write the city's name in the text box under "Search for a city:", and then click Search. You will see the current conditions for that city on the right with the 5 day forecast below it. 
 
